@@ -1,3 +1,5 @@
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:300);
+
 :root {
 	--background: #005;
 	--primary: #88D5BF;
@@ -7,7 +9,7 @@
 
 body {
     color: white;
-    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: "Source Sans Pro";
     margin: 0;
     overflow-x: auto;
     padding: 0;
@@ -17,8 +19,11 @@ body {
 
 * {
     box-sizing: border-box;
-  }
+}
 
+h1 {
+    letter-spacing: 0.5rem;
+}
 .container {
     align-items: center;
     display: flex;
@@ -33,6 +38,7 @@ body {
     align-items: center;
     text-align: center;
     min-height: 100vh;
+    margin-right: 50px;
 }
 
 .shape {
