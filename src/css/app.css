@@ -11,7 +11,7 @@ body {
     margin: 0;
     overflow-x: auto;
     padding: 0;
-    background: var(--background);
+    background: var(--background) !important;
     font-size: 32px;
 }
 
@@ -36,7 +36,7 @@ body {
 }
 
 .shape {
-    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab) !important;
     animation: morph 8s ease infinite;
     background-size: 400% 400%;
     border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
