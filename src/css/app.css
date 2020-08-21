@@ -37,11 +37,11 @@ body {
 
 .shape {
     background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
-    animation: morph 8s ease-in-out infinite;
+    animation: morph 8s ease infinite;
     background-size: 400% 400%;
     border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
     height: 400px;
-    transition: all 1s ease-in-out;
+    transition: all 1s ease;
     width: 400px;
     z-index: 5;
 }
