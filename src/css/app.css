@@ -9,7 +9,6 @@
 }
 
 #vid {
-    cursor: none;
     display: block;
     margin: 0 auto;
     width: auto;
@@ -25,7 +24,6 @@
 
 body{
     font-family: 'Exo', sans-serif;
-    cursor: none;
 }
 
 
