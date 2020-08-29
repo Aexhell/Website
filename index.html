@@ -1,20 +1,21 @@
 <html lang="es">
 <head>
-  <link rel="stylesheet" href="src/css/app.css">
-  <link rel="shortcut icon" href="src/icon.ico">
-  <link rel="apple-touch-icon" href="src/icon.ico">
-  <meta name="theme-color" content="#96ffd1">
-  <meta property="og:site_name" content="Aexhell">
-  <meta property="og:description" content="Simple website.">
-  <meta property="og:title" content="Aex' Hell.">
-  <meta property="og:url" content="https://aexhell.ml">
-  <meta property="og:image" content="https://avatars1.githubusercontent.com/u/47114174?s=400&amp;v=4">
-  <title>Aexhell</title>
+	<link rel="stylesheet" href="src/css/app.css">
+	<link rel="shortcut icon" href="src/icon.ico">
+	<link rel="apple-touch-icon" href="src/icon.ico">
+	<meta name="theme-color" content="#96ffd1">
+	<meta property="og:site_name" content="Aexhell">
+	<meta property="og:description" content="Simple website.">
+	<meta property="og:title" content="Aex' Hell.">
+	<meta property="og:url" content="https://aexhell.ml">
+	<meta property="og:image" content="https://avatars1.githubusercontent.com/u/47114174?s=400&amp;v=4">
+	<title>Aexhell</title>
 </head>
 <body oncontextmenu="return false">
-  <video id="vid" autoplay name="media"><source src="src/movie.mp4" type="video/mp4"></video>
+	<video id="vid" onclick="this.play()" autoplay name="media"><source src="src/movie.mp4" type="video/mp4"></video>
 </body>
 <script>
-    document.getElementById('vid').play();
+	document.getElementById('vid').play();
+	console.log("[INFO] Started!");
 </script>
 </html>
