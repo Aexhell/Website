@@ -8,6 +8,13 @@
 	--third: #e27fcb;
 }
 
+video {
+    display: block;
+    margin-top: 115px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 @import url('https://fonts.googleapis.com/css?family=Exo:400,700');
 
 *{
