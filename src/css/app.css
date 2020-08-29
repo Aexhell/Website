@@ -9,11 +9,10 @@
 }
 
 video {
-    display: block;
-    margin-top: 115px;
-    margin-left: auto;
-    margin-right: auto;
     cursor: none;
+    display: block;
+    margin: 0 auto;
+    width: 70%;
 }
 
 @import url('https://fonts.googleapis.com/css?family=Exo:400,700');
@@ -173,6 +172,7 @@ body {
     padding: 0;
     background: var(--background) !important;
     font-size: 32px;
+    height: 100%;
 }
 
 * {
