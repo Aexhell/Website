@@ -42,6 +42,11 @@ body {
     /* text-align: left !important; */
 }
 
+.question, .answer {
+    text-indent: -60px;
+    margin-left: 60px;
+}
+
 .question::before {
     content: "Q: ";
     color: red;
