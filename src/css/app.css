@@ -19,6 +19,7 @@ a:-webkit-any-link {
     color: #2b3bff;
     cursor: pointer;
     text-decoration: none !important;
+    text-shadow: none;
 }
 
 * {
@@ -51,11 +52,13 @@ body {
 .question::before {
     content: "Q: ";
     color: red;
+    text-shadow: none;
 }
 
 .answer::before {
     content: "A: ";
     color: green;
+    text-shadow: none;
 }
 
 * {
