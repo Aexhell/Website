@@ -8,6 +8,14 @@
          url('https://vignette.wikia.nocookie.net/heliosanctus/images/7/7f/Determination.svg#Undertale') format('svg');
 }
 
+@keyframes flashBorder {
+  0% {
+    text-shadow: -2px 0px 0 #888, 0px -2px 0 #888, 0px 2px 0 #888, 2px 0px 0 #888; }
+  50% {
+    text-shadow: -2.5px 0px 0 #444, 0px -2.5px 0 #444, 0px 2.5px 0 #444, 2.5px 0px 0 #444; }
+  100% {
+    text-shadow: -2px 0px 0 #888, 0px -2px 0 #888, 0px 2px 0 #888, 2px 0px 0 #888; } }
+
 #vid {
     display: block;
     margin: 0 auto;
@@ -46,7 +54,8 @@ body {
 .question, .answer {
     text-indent: -52px;
     margin-left: 60px;
-    text-shadow: 2px 2px 0 blue;
+    text-shadow: -2.5px 0px 0 #777, 0px -2.5px 0 #777, 0px 2.5px 0 #777, 2.5px 0px 0 #777;
+    animation: flashBorder 5s infinite ease-in-out;
 }
 
 .question::before {
