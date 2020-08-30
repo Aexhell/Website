@@ -1,3 +1,74 @@
+@font-face {
+    font-family: 'Determination Mono';
+    src: url('https://vignette.wikia.nocookie.net/heliosanctus/images/c/c0/Determination.eot');
+    src: url('https://vignette.wikia.nocookie.net/heliosanctus/images/c/c0/Determination.eot#iefix') format('embedded-opentype'),
+         url('https://vignette.wikia.nocookie.net/heliosanctus/images/a/aa/Determination.woff2') format('woff2'),
+         url('https://vignette.wikia.nocookie.net/heliosanctus/images/3/37/Determination.woff') format('woff'),
+         url('https://vignette.wikia.nocookie.net/heliosanctus/images/c/cd/Determination.ttf') format('truetype'),
+         url('https://vignette.wikia.nocookie.net/heliosanctus/images/7/7f/Determination.svg#Undertale') format('svg');
+}
+
+#vid {
+    display: block;
+    margin: 0 auto;
+    width: auto;
+    padding-top: 120px;
+}
+
+a:-webkit-any-link {
+    color: #2b3bff;
+    cursor: pointer;
+    text-decoration: none !important;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    color: white;
+    font-family: "Determination Mono";
+    margin: 0;
+    overflow-x: auto;
+    padding: 0;
+    background: black;
+    font-size: 32px;
+    max-height: 100%;
+    max-height: 100%;
+    height: 100%;
+    width: 100%;
+    max-width: 100%;
+    /* text-align: left !important; */
+}
+
 .question, .answer {
-    text-shadow: 2px 2px 0 #0000ff;
+    text-indent: -60px;
+    margin-left: 60px;
+    text-shadow: 2px 2px 0 blue;
+}
+
+.question::before {
+    content: "Q: ";
+    color: red;
+}
+
+.answer::before {
+    content: "A: ";
+    color: green;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.center-screen {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+    min-height: 100vh;
+    margin-right: 50px;
+    text-align: left;
+    margin-left: 50px;
 }
