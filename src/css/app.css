@@ -24,7 +24,7 @@
 }
 
 a:-webkit-any-link {
-    color: #2b3bff;
+    color: #ff0000;
     cursor: pointer;
     text-decoration: none !important;
     text-shadow: none;
