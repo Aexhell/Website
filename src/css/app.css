@@ -15,6 +15,12 @@
     padding-top: 120px;
 }
 
+a:-webkit-any-link {
+    color: #2b3bff;
+    cursor: pointer;
+    text-decoration: none !important;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -33,6 +39,7 @@ body {
     height: 100%;
     width: 100%;
     max-width: 100%;
+    /* text-align: left !important; */
 }
 
 .question::before {
@@ -53,8 +60,9 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
-    text-align: center;
+    /* align-items: center; */
     min-height: 100vh;
     margin-right: 50px;
+    text-align: left;
+    margin-left: 50px;
 }
