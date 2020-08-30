@@ -44,7 +44,7 @@ body {
 }
 
 .question, .answer {
-    text-indent: -60px;
+    text-indent: -52px;
     margin-left: 60px;
     text-shadow: 2px 2px 0 blue;
 }
