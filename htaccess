@@ -8,7 +8,7 @@ RewriteCond %{THE_REQUEST} ^[A-Z]{3,9}\ /.*\.html\ HTTP/
 RewriteRule ^(.*)\.html$ /$1 [R=301,L]
 
 RewriteCond %{REQUEST_FILENAME}.mp4 -f
-RewriteRule ^(.+)$ $1.mp4 [L,QSA]
+RewriteRule ^(.+)$ $1.mp4 [NC,L]
 
 #301 from example.com/video.mp4 to example.com/video
 RewriteCond %{THE_REQUEST} ^[A-Z]{3,9}\ /.*\.mp4\ HTTP/
