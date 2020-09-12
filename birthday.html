@@ -49,9 +49,9 @@ class Birthday extends HTMLElement {
   connectedFallback() {
     this.innerHTML = "> " + days + "d " + hours + "h " + minutes + "m " + seconds + "s ";
   }
-
-  window.customElements.define("birthday", Birthday);
 }
+
+window.customElements.define("birthday", Birthday);
 </script>
 
 </body>
