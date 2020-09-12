@@ -37,7 +37,7 @@ var x = setInterval(function() {
      
   if (distance < 0) {
     clearInterval(x);
-    document.getElementByName("birthday").innerHTML = "── EXPIRED ──";
+    document.getElementsByName("birthday")[0].innerHTML = "── EXPIRED ──";
   }
 }, 1000);
   
